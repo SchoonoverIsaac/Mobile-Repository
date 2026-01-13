@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/levle 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/levle 2.unity
+    guid: 9b2800f7e2ca7154dbeffe12c73000de
+  - enabled: 1
+    path: Assets/Scenes/levle 3.unity
+    guid: 320437a6bb28d994d9f10b9d2059fbb6
+  - enabled: 1
+    path: Assets/Scenes/Main menu.unity
+    guid: 5509748ac8a8cc5479daa2c18b93b3a3
+  - enabled: 1
+    path: Assets/Scenes/lose.unity
+    guid: b984281fa2960f541a711a5154f0e1cb
+  - enabled: 1
+    path: Assets/Scenes/win.unity
+    guid: c3f8965a27d39834f9d953f9171b02e7
   m_configObjects: {}
