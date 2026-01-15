@@ -27,7 +27,9 @@ public class PlatformerMovement : MonoBehaviour
     {
         //when we press left or right, move the char left/right
         float moveX = Input.GetAxis("Horizontal");
-        Vector2 moveDirection = moveActionToUse.action.ReadValue<Vector2>();
+        Vector2 vector21 = moveActionToUse.action.ReadValue<Vector2>();
+        Vector2 vector2 = vector21;
+        Vector2 moveDirection = vector2;
         //maintain the integrity of our Y velocity
         Vector3 velocity= rb.velocity;
         velocity.x = moveDirection.x * moveSpeed;
