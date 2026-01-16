@@ -848,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5c76f3bb4e9d3543b6639fb2c6f240d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Levle 1
+  levelToLoad: Level 1
   UISound: {fileID: 0}
 --- !u!114 &2045104841
 MonoBehaviour:
