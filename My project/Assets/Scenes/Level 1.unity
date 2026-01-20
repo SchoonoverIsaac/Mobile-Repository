@@ -579,6 +579,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 3912505542776048189, guid: d7c1896231036574185e21e342af52c6, type: 3}
       propertyPath: m_SizeDelta.x
       value: 77.9182
@@ -634,6 +635,15 @@ PrefabInstance:
     - target: {fileID: 8637650920813412141, guid: d7c1896231036574185e21e342af52c6, type: 3}
       propertyPath: m_SizeDelta.y
       value: 31.6342
+=======
+    - target: {fileID: 8637650920813412141, guid: d7c1896231036574185e21e342af52c6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 77.918
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637650920813412141, guid: d7c1896231036574185e21e342af52c6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30.668
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8637650920813412141, guid: d7c1896231036574185e21e342af52c6, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -641,7 +651,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637650920813412141, guid: d7c1896231036574185e21e342af52c6, type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< Updated upstream
       value: -55.5
+=======
+      value: -55.01691
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -736,17 +750,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3311263891082855367, guid: 0b93ffe7b77286f4ba879bc7d34ccd34, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6786308827424130203, guid: 0b93ffe7b77286f4ba879bc7d34ccd34, type: 3}
       propertyPath: m_Name
       value: joi stick
-      objectReference: {fileID: 0}
-    - target: {fileID: 7231823841778782760, guid: 0b93ffe7b77286f4ba879bc7d34ccd34, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 277
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
