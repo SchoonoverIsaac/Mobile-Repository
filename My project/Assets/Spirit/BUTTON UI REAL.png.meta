@@ -100,12 +100,12 @@ TextureImporter:
       name: BUTTON UI REAL_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 126
-        width: 64
-        height: 18
+        x: 19
+        y: 129
+        width: 26
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: BUTTON UI REAL_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 126
-        width: 64
-        height: 18
+        x: 83
+        y: 129
+        width: 26
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: BUTTON UI REAL_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
-        width: 64
-        height: 18
+        x: 19
+        y: 111
+        width: 26
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: BUTTON UI REAL_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 90
-        width: 64
-        height: 18
+        x: 21
+        y: 93
+        width: 22
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: BUTTON UI REAL_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 90
-        width: 64
-        height: 18
+        x: 85
+        y: 93
+        width: 22
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: BUTTON UI REAL_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 64
-        height: 18
+        x: 21
+        y: 75
+        width: 22
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: BUTTON UI REAL_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
-        width: 64
-        height: 18
+        x: 10
+        y: 57
+        width: 43
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: BUTTON UI REAL_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 54
-        width: 64
-        height: 18
+        x: 75
+        y: 57
+        width: 42
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: BUTTON UI REAL_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
-        width: 64
-        height: 18
+        x: 10
+        y: 39
+        width: 43
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: BUTTON UI REAL_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 18
-        width: 64
-        height: 18
+        x: 22
+        y: 21
+        width: 20
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: BUTTON UI REAL_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 18
-        width: 64
-        height: 18
+        x: 86
+        y: 21
+        width: 20
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: BUTTON UI REAL_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 18
+        x: 22
+        y: 3
+        width: 20
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
