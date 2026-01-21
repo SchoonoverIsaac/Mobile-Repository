@@ -73,4 +73,8 @@ public class PlatformerMovement : MonoBehaviour
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
         }
     }
+    public void UpgradeSpeed()
+    {
+        moveSpeed += 0.1f;
+    }
 }
