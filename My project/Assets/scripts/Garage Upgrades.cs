@@ -34,16 +34,16 @@ public class GarageUpgrades : MonoBehaviour
     }
     public void BuyUpgrade()
     {
-        if (player.GetComponent<Collectables>() != null)
+        if (player.GetComponent<colletables>() != null)
         {
-            if (player.GetComponent<Collectables>().coins >= 5)
+            if (player.GetComponent<colletables>().cash >= 5)
             {
                 player.GetComponent<PlatformerMovement>().UpgradeSpeed();
-                player.GetComponent<Collectables>().coins -= 5;
+                player.GetComponent<colletables>().cash -= 5;
             }
             else
             {
-
+                //Sound for something if you dont have the money for it.
             }
         }
     }
