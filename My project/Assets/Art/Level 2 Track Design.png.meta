@@ -101,7 +101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f477656db44028418d4e7cbcedfce49
-      internalID: -1371618494
+      spriteID: 275e34d5aeab5e44bad688320bd04902
+      internalID: 1628469183
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e709a2785ae9341ad39415b2efc73f
-      internalID: -1863142641
+      spriteID: 07e0c136b87dc2349a3814898e874865
+      internalID: -1782550730
       vertices: []
       indices: 
       edges: []
@@ -143,6 +143,48 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64bd2c4ce7f1934b8e18dac452fff09
+      internalID: -642901400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7deb685bf0f97742b9564b06d8731e4
+      internalID: -108927292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_4
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -153,50 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4547352c2828943ad4973a646b9b21
-      internalID: -2012237445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 2 Track Design_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe0cd0ea81912424fb37c197a73efc1d
-      internalID: 1763297594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 2 Track Design_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8fb2d7e6ead3a34c965755313ea5122
-      internalID: 502857576
+      spriteID: 023995666d98c334380ddc9312fbd6bb
+      internalID: -594941960
       vertices: []
       indices: 
       edges: []
@@ -205,6 +205,111 @@ TextureImporter:
       name: Level 2 Track Design_5
       rect:
         serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7769babe14d073b47b26da39ec8b9a57
+      internalID: -533801665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ca0e1feb531f64c9f0d0677a927566
+      internalID: -742899157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e99b712dc83a740882126b9ed22a43
+      internalID: -1394781155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e07926909f0524eaa550f89bcb37a0
+      internalID: 1529382708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d62d20bda29204991b40a5cd082591
+      internalID: -665389240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_10
+      rect:
+        serializedVersion: 2
         x: 64
         y: 32
         width: 32
@@ -216,14 +321,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f908e847e05b93140a022ff9de6a1981
-      internalID: -381016984
+      spriteID: 310f8532f0ace3a4ca24bf5604c61a57
+      internalID: -549294492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level 2 Track Design_6
+      name: Level 2 Track Design_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5ded5eb0569ac4ba1e5eb8ff568e03
+      internalID: 306585192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 2 Track Design_12
       rect:
         serializedVersion: 2
         x: 0
@@ -237,50 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce18b15d7413b44586b8d1cd6a40f33
-      internalID: -1660546687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 2 Track Design_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec1f5465a8ad7d844819275375fe7b88
-      internalID: -888242177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 2 Track Design_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5c1541374a787c4fa8c533245ec45a7
-      internalID: 1596704434
+      spriteID: 8d08159c89167524db97ce03420ee544
+      internalID: 390080029
       vertices: []
       indices: 
       edges: []
@@ -296,15 +380,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Level 2 Track Design_0: -1371618494
-      Level 2 Track Design_1: -1863142641
-      Level 2 Track Design_2: -2012237445
-      Level 2 Track Design_3: 1763297594
-      Level 2 Track Design_4: 502857576
-      Level 2 Track Design_5: -381016984
-      Level 2 Track Design_6: -1660546687
-      Level 2 Track Design_7: -888242177
-      Level 2 Track Design_8: 1596704434
+      Level 2 Track Design_0: 1628469183
+      Level 2 Track Design_1: -1782550730
+      Level 2 Track Design_10: -549294492
+      Level 2 Track Design_11: 306585192
+      Level 2 Track Design_12: 390080029
+      Level 2 Track Design_2: -642901400
+      Level 2 Track Design_3: -108927292
+      Level 2 Track Design_4: -594941960
+      Level 2 Track Design_5: -533801665
+      Level 2 Track Design_6: -742899157
+      Level 2 Track Design_7: -1394781155
+      Level 2 Track Design_8: 1529382708
+      Level 2 Track Design_9: -665389240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
