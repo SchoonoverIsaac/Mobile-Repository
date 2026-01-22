@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d7a48e7c19c3bc4aa558dfa5593daf7
-      internalID: 1529374510
+      spriteID: d579ac25df8a00647b2b566381d63603
+      internalID: -1179580673
       vertices: []
       indices: 
       edges: []
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a594229e2c3d934185e961dd97d276a
-      internalID: 1247406044
+      spriteID: d9eb1fde23a9c1942a6a4ea010aa8b34
+      internalID: -1552735608
       vertices: []
       indices: 
       edges: []
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a5241a95db979e4fa013a42c733162f
-      internalID: 460848735
+      spriteID: d8637cbeb1bc50f418e9c82ccb8bba06
+      internalID: 881594419
       vertices: []
       indices: 
       edges: []
@@ -163,8 +163,8 @@ TextureImporter:
       name: Level 1 track design_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 96
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8e758c2db145bf4583f50c2e2d36690
-      internalID: 568444710
+      spriteID: b85de92a337b66b4981c01f1ca0c1ba7
+      internalID: 2069058157
       vertices: []
       indices: 
       edges: []
@@ -184,7 +184,7 @@ TextureImporter:
       name: Level 1 track design_4
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8bfc86035b78d74bb891064fc87bf00
-      internalID: -1470212550
+      spriteID: bbd1612a7c87fb64e8398d98d74ea743
+      internalID: 1115883555
       vertices: []
       indices: 
       edges: []
@@ -205,6 +205,27 @@ TextureImporter:
       name: Level 1 track design_5
       rect:
         serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8b54447bfc3344ba206d632173b1ad
+      internalID: -504853126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 1 track design_6
+      rect:
+        serializedVersion: 2
         x: 64
         y: 64
         width: 32
@@ -216,29 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32221fbdffda287469079ec9f91754cd
-      internalID: 780950761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 1 track design_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 964db795b796ddc4a80152e89c304883
-      internalID: 1270599013
+      spriteID: 3b00979a574a73a45948d22f786de721
+      internalID: 909316900
       vertices: []
       indices: 
       edges: []
@@ -247,6 +247,48 @@ TextureImporter:
       name: Level 1 track design_7
       rect:
         serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f90608b68c8bc40acf24397fe7813e
+      internalID: 2005768569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 1 track design_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65b789278f982d4ebdff77a3e438190
+      internalID: 297649675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 1 track design_9
+      rect:
+        serializedVersion: 2
         x: 32
         y: 32
         width: 32
@@ -258,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa62fdb5949fded49ab6f71f255c9942
-      internalID: -2057266979
+      spriteID: b32059cbd2df111469771112776de87c
+      internalID: -1563154949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level 1 track design_8
+      name: Level 1 track design_10
       rect:
         serializedVersion: 2
         x: 64
@@ -279,14 +321,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da995626556a3c74a87a196db574cc85
-      internalID: 266864373
+      spriteID: 8dd98c654ea91a74295f25a5bf508350
+      internalID: -1843829987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level 1 track design_9
+      name: Level 1 track design_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff5df3f74fe85641ace72d25d4db8ee
+      internalID: -947864031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 1 track design_12
       rect:
         serializedVersion: 2
         x: 0
@@ -300,50 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ffb6f8b40d5ca7459616c1e3efe8c4d
-      internalID: 480790971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 1 track design_10
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1985f381444dcf45b4bb0a68ae8fac5
-      internalID: -1687527365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level 1 track design_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6bf9a26b8ac8aa4d99c449fa214da5a
-      internalID: -881308610
+      spriteID: a4fa4f79989e4794293b53beb5c72413
+      internalID: 607850978
       vertices: []
       indices: 
       edges: []
@@ -359,18 +380,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Level 1 track design_0: 1529374510
-      Level 1 track design_1: 1247406044
-      Level 1 track design_10: -1687527365
-      Level 1 track design_11: -881308610
-      Level 1 track design_2: 460848735
-      Level 1 track design_3: 568444710
-      Level 1 track design_4: -1470212550
-      Level 1 track design_5: 780950761
-      Level 1 track design_6: 1270599013
-      Level 1 track design_7: -2057266979
-      Level 1 track design_8: 266864373
-      Level 1 track design_9: 480790971
+      Level 1 track design_0: -1179580673
+      Level 1 track design_1: -1552735608
+      Level 1 track design_10: -1843829987
+      Level 1 track design_11: -947864031
+      Level 1 track design_12: 607850978
+      Level 1 track design_2: 881594419
+      Level 1 track design_3: 2069058157
+      Level 1 track design_4: 1115883555
+      Level 1 track design_5: -504853126
+      Level 1 track design_6: 909316900
+      Level 1 track design_7: 2005768569
+      Level 1 track design_8: 297649675
+      Level 1 track design_9: -1563154949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
