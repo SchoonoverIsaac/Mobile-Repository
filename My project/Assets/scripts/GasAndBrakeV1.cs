@@ -5,7 +5,6 @@ using UnityEngine;
 public class GasAndBrake : MonoBehaviour
 {
     public float Gas = 5f;
-    public float Brake = -5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +17,9 @@ public class GasAndBrake : MonoBehaviour
        // when gas button is pressed move forword//
        
         
+    }
+    public void GasPedal()
+    {
+
     }
 }
