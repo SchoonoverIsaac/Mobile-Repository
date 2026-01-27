@@ -14,7 +14,7 @@ public class playercontroles : MonoBehaviour
     void Start()
     {
 
-        
+
     }
 
     // Update is called once per frame
@@ -22,6 +22,6 @@ public class playercontroles : MonoBehaviour
     {
         Vector2 moveDirection = moveActionToUse.action.ReadValue<Vector2>();
         transform.Translate(moveDirection * Speed * Time.deltaTime);
-        
+
     }
 }

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4753744535735799551}
   - component: {fileID: 867157117515890923}
   - component: {fileID: 6128159795957592053}
-  - component: {fileID: 9094259746344231419}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -85,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &4753744535735799551
@@ -190,19 +189,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &9094259746344231419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6387962476486441443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e8a2bdb5af51394f8ee7028e6797095, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpSpeed: 5
-  jumpSound: {fileID: 0}
-  moveActionToUse: {fileID: 1864675987618368505, guid: cd78f5c7324d09047afbd00569593100, type: 3}
