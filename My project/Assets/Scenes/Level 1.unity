@@ -3418,7 +3418,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< Updated upstream
 --- !u!4 &328056730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8101799905278815406, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
@@ -3537,8 +3536,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328056730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1 &980756157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3775,7 +3772,7 @@ GameObject:
   - component: {fileID: 1385730235}
   - component: {fileID: 1385730234}
   m_Layer: 0
-  m_Name: colider
+  m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3900,7 +3897,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< Updated upstream
     - target: {fileID: 4753744535735799551, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
       propertyPath: m_Camera
       value: 
@@ -3917,11 +3913,33 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 0.88
       objectReference: {fileID: 0}
-=======
->>>>>>> Stashed changes
     - target: {fileID: 6387962476486441443, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6878455022224483530, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: m_Size.x
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6878455022224483530, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: m_Size.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6878455022224483530, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1762356887, guid: 993a92e47728a70458b7005160ed074e, type: 3}
+    - target: {fileID: 6878455022224483530, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8101799905278815406, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8101799905278815406, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8101799905278815406, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3963,9 +3981,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9094259746344231419, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
+      propertyPath: moveActionToUse
+      value: 
+      objectReference: {fileID: -477027172843749719, guid: 8113d164bbc318e4eb31e33cad5b2a88, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-<<<<<<< Updated upstream
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8101799905278815406, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
       insertIndex: -1
@@ -3974,10 +3995,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6387962476486441443, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
       insertIndex: -1
       addedObject: {fileID: 434009869}
-=======
-    m_AddedGameObjects: []
-    m_AddedComponents: []
->>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 90c0c85492e6f3245b404cf78522a443, type: 3}
 --- !u!1 &2112330101
 GameObject:
@@ -3990,7 +4007,7 @@ GameObject:
   - component: {fileID: 2112330103}
   - component: {fileID: 2112330102}
   m_Layer: 0
-  m_Name: tilmap
+  m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
