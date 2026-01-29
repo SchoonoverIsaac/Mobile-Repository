@@ -30,6 +30,7 @@ public class GasAndBrake : MonoBehaviour
 
         }
         
+           //when break is pressed slow down//
 
         
     }
@@ -37,5 +38,14 @@ public class GasAndBrake : MonoBehaviour
     {
         Debug.Log("gas called");
         rb.AddForce(new Vector2(0, 100 * Gas));
+    }
+    public void Brakepedal()
+    {
+        Debug.Log("gas called");
+        rb.AddForce(new Vector2(0, -100 * Gas));
+        if (rb.velocity.y <= 0)
+        {
+            rb.velocity = new Vector2(0,0);
+        }
     }
 }
