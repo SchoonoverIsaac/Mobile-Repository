@@ -23,12 +23,7 @@ public class GasAndBrake : MonoBehaviour
         Vector2 vector21 = moveActionToUse.action.ReadValue<Vector2>();
         Vector2 vector2 = vector21;
         Vector2 moveDirection = vector2;
-        if (Input.GetButtonDown("gas"))
-        {
-
-            rb.AddForce(new Vector2(0, 100 * Gas));
-
-        }
+       
         
            //when break is pressed slow down//
 
@@ -41,7 +36,7 @@ public class GasAndBrake : MonoBehaviour
     }
     public void Brakepedal()
     {
-        Debug.Log("gas called");
+        Debug.Log("Brake called");
         rb.AddForce(new Vector2(0, -100 * Gas));
         if (rb.velocity.y <= 0)
         {
