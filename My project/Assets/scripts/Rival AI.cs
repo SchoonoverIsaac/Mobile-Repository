@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class RivalAI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Range(0f,2f)]
+    [SerializeField] private float WayPointSize = 1f;
+    private void OnDrawGizmos()
     {
-        
+        foreach (Transform t in transform)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(t.position, 1f);
+        }
+        Gizmos.color = Color.red;  
+        for(int i = 0; i < transform.childCount - 1; i++)
+        {
+          Gizmos.DrawLine(transform.GetChild(i).position, transform.GetChild(i + 1).position);
+        }
+        Gizmos.DrawLine(transform.GetChild(transform.childCount - 1).position, transform.GetChild(0).position);
     }
 
-    // Update is called once per frame
-    void Update()
+    public Transform GetNextWaypoint(Transform currentWaypoint)
     {
-        
-    }
+        return null;
+    }   
 }
