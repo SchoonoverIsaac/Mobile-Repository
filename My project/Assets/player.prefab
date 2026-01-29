@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 867157117515890923}
   - component: {fileID: 6128159795957592053}
   - component: {fileID: 3806827151134364564}
+  - component: {fileID: 4866916903258101658}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -203,9 +204,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8a2bdb5af51394f8ee7028e6797095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 10
   jumpSpeed: 5
   jumpSound: {fileID: 0}
+  moveActionToUse: {fileID: -477027172843749719, guid: 8113d164bbc318e4eb31e33cad5b2a88, type: 3}
+--- !u!114 &4866916903258101658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387962476486441443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea940ba353030d044900d616d62850f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gas: 5
+  Brake: 5
   moveActionToUse: {fileID: -477027172843749719, guid: 8113d164bbc318e4eb31e33cad5b2a88, type: 3}
 --- !u!1 &7880809702429995103
 GameObject:
