@@ -9,10 +9,19 @@ public class RivalMovementWaypionts : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 10f;
 
+    [Range(0f, 20f)] // How fast the agent will rotate once it reaces tits waypoint
+    [SerializeField] private float rotateSpeed = 3f;
+
     [SerializeField] private float distanceThreshold = 0.1f;
 
     // The current wwaypoint target that the object  is moving towards
     private Transform currentWaypoint;
+
+
+    // The rotation target fot the current frame
+    private Quaternion rotationGoal;
+    // The direction to th next waypoint that the agent need to roatate towards
+    private Vector3 directionToWaypoint;
 
 
     // Start is called before the first frame update
@@ -34,7 +43,17 @@ public class RivalMovementWaypionts : MonoBehaviour
       if (Vector3.Distance(transform.position, currentWaypoint.position) < distanceThreshold)
         {
             currentWaypoint = waypoints.GetNextWaypoint(currentWaypoint);
-            transform.LookAt(currentWaypoint);
+            //transform.LookAt(currentWaypoint);
         }
+        RotateTowardsWaypoint();
     }
+
+    // Will slowly rotate the agent towards the current waypoint it is moving towards
+    private void RotateTowardsWaypoint()
+    {
+        directionToWaypoint = (currentWaypoint.position - transform.position).normalized;
+        rotationGoal = Quaternion.LookRotation(directionToWaypoint);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotationGoal, rotateSpeed * Time.deltaTime);
+    }
+
 }
