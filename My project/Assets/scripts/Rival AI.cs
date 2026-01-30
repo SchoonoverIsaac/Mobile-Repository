@@ -23,6 +23,11 @@ public class RivalAI : MonoBehaviour
 
     public Transform GetNextWaypoint(Transform currentWaypoint)
     {
+        if (currentWaypoint == null) 
+        {
+            return transform.transform.GetChild(0);
+        }
+
         return null;
     }   
 }
