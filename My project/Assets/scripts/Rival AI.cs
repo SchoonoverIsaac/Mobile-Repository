@@ -28,6 +28,13 @@ public class RivalAI : MonoBehaviour
             return transform.transform.GetChild(0);
         }
 
-        return null;
+       if (currentWaypoint.GetSiblingIndex() < transform.childCount-1)
+        {
+           return transform.GetChild(currentWaypoint.GetSiblingIndex() + 1);
+        }
+       else
+        {
+            return transform.GetChild(0);
+        }
     }   
 }
