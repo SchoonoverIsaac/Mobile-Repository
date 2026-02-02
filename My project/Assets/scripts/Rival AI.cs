@@ -37,7 +37,7 @@ public class RivalAI : MonoBehaviour
     {
         if (currentWaypoint == null) 
         {
-            return transform.transform.GetChild(0);
+            return transform.GetChild(0);
         }
 
        if (currentWaypoint.GetSiblingIndex() < transform.childCount-1)
