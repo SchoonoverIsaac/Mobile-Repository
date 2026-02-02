@@ -24,15 +24,14 @@ public class Turn : MonoBehaviour
         Vector2 vector2 = vector21;
         Vector2 moveDirection = vector2;
 
-
-
-
-
     }
     public void rightturn ()
     {
         Debug.Log("right called");
-      
+        Vector3 rot = GetComponent<Transform>().rotation.eulerAngles;
+        rot.z -= 90;
+        GetComponent<Transform>().rotation = Quaternion.Euler(rot);
+       
     }
     public void leftturn()
     {

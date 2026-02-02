@@ -32,12 +32,12 @@ public class GasAndBrake : MonoBehaviour
     public void GasPedal()
     {
         Debug.Log("gas called");
-        rb.AddForce(new Vector2(0, 100 * Gas));
+        rb.AddForce(transform.up * 100 * Gas);
     }
     public void Brakepedal()
     {
         Debug.Log("Brake called");
-        rb.AddForce(new Vector2(0, -100 * Gas));
+        rb.AddForce(transform.up * -100 * Gas);//new Vector2(0, -100 * Gas));
         if (rb.velocity.y <= 0)
         {
             rb.velocity = new Vector2(0,0);

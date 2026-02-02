@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91ffd234d3c29184486f74e40158592a
+guid: 5b345980ce7b0fa459934c659419155e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: I LOVE WINNING_0
+      name: I LOVE WINNING (1)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 2
-        width: 72
-        height: 62
+        x: 0
+        y: 85
+        width: 125
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3974de159dcc7514b9d8dbd433fac4ff
-      internalID: -2142026022
+      spriteID: 7eab90885ecf5084fa3ca3f108dffd3c
+      internalID: -1716915755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I LOVE WINNING (1)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f32df4f521aa6c4a8039592ed3735c5
+      internalID: 2022619851
       vertices: []
       indices: 
       edges: []
@@ -128,7 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      I LOVE WINNING_0: -2142026022
+      I LOVE WINNING (1)_0: -1716915755
+      I LOVE WINNING (1)_1: 2022619851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

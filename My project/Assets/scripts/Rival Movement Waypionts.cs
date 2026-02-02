@@ -33,7 +33,7 @@ public class RivalMovementWaypionts : MonoBehaviour
 
         // Set the next waypoint target
         currentWaypoint = waypoints.GetNextWaypoint(currentWaypoint);
-        transform.LookAt(currentWaypoint);
+        transform.up = currentWaypoint.position - transform.position;
     }
 
     // Update is called once per frame
@@ -53,7 +53,8 @@ public class RivalMovementWaypionts : MonoBehaviour
     {
         directionToWaypoint = (currentWaypoint.position - transform.position).normalized;
         rotationGoal = Quaternion.LookRotation(directionToWaypoint);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotationGoal, rotateSpeed * Time.deltaTime);
+        transform.up = currentWaypoint.position - transform.position;
+        //transform.rotation = Quaternion.Slerp(transform.rotation, rotationGoal, rotateSpeed * Time.deltaTime);
     }
 
 }
